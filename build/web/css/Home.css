@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 27, 2021, 4:09:58 PM
+    Author     : hoandk
+*/
+
+.contain{
+    /*    hình ảnh hiển thị đè lên văn bản.*/
+    position: relative;
+    background-color: #aa4043;
+    background-image: url(../Images/background.JPG);
+    /*    lap lai anh*/
+    background-repeat: repeat; 
+    /*    background-position: 0 0;*/
+    background-attachment: scroll;
+    background-size: auto;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    height: auto;
+    display: flex;
+    padding-left: 250px;
+
+}
+
+.left{
+    width: 65%;
+    height: auto;
+    padding: 22px 0;
+}
+/*.image img{
+    width: 100%;
+    height: auto ;
+    
+}*/
+.titlehome{
+    color: white;
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+.about{
+    color: white;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.description{
+    color: white;
+    font-size: 18.5px;
+    padding-bottom: 25px;
+}
+.list ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list ul li{
+    display: inline-block;
+    width: 230px;
+    padding-right: 5px;
+}
+
+.number h4 a{
+    color: white;
+    font-size: 18.5px;
+}
+
+.number p{
+    color: white;
+    font-size: 16px;
+}
+.titlecontact h2{
+    color: white;   
+    font-weight: lighter;
+}
+
+.titlecontact a{
+    color: white;   
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0;
+    padding-bottom: 5px;
+}
+.pagination {
+    display: inline-block;  
+    padding-bottom: 20px;
+    padding-left: 250px;
+}
+
+.pagination a {
+    display: inline;   
+    float: left;
+    padding: 5px 11px;
+    text-decoration: none;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    font-family: auto;
+    
+}
+

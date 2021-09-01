@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 27, 2021, 5:11:15 PM
+    Author     : hoandk
+*/
+
+#radio1:checked ~.slide:first-child{
+    margin-left: 0px;
+}
+#radio2:checked ~.slide image{
+    margin-left: -750px;
+}
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.slide-wrapper {
+    width: 6750px;
+    -webkit-animation: slide 20s ease infinite;
+}
+@-webkit-keyframes slide {
+    10% {margin-left: 0px;}
+    20% {margin-left: -750px;}
+    30% {margin-left: -1500px ;}
+    40% {margin-left: -2250px;}
+    50% {margin-left: -3000px;}
+    60% {margin-left: -3750px;}
+    70% {margin-left: -4500px;}
+    80% {margin-left: -5250px;}
+}
+.slide image {
+    display: block;
+    height: 600px;
+    width: 750px;
+}
+.slide {
+    float: left;
+    width: 750px;
+    height: auto;
+}
+
+.arrow{
+    justify-content: center;
+}
+.forward{
+    position: absolute;
+    margin-left: 700px;
+}
+.forward img{
+    cursor: pointer;
+    height: 50px;
+}
+.back img{
+    height: 50px;
+    cursor: pointer;
+}
+.back{
+    position: absolute;
+    height: 50px;
+    width:auto;
+}
+.back input[type=checkbox]:checked~.slide{
+    margin-right: -750px;
+}
+.navi-btn input{
+}
+.navi-lb{
+    border-radius: 10px;
+    border: 2px solid floralwhite;
+    padding: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.navi-lb:hover{
+    background-color:  white;
+}
+.navigation{
+    margin-top: -40px;
+    position: absolute;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+.navi-lb:not(:first-child){
+    margin-left: 20px;
+}
+
